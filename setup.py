@@ -7,6 +7,7 @@ setup(
     name="openmemory-ai",
     version="1.0.0",
     author="Shivam Kumar (shivay00001)",
+    author_email="shivaysinghrajputofficial@gmail.com",
     description="A 100/100 Enterprise-grade, async, and mathematically secure AI Memory System.",
     long_description=long_description,
     long_description_content_type="text/markdown",
