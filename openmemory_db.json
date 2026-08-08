@@ -1,0 +1,25 @@
+{
+  "episodic": [
+    {
+      "id": "90902625-c655-4230-a4f0-3dca0ad46a93",
+      "timestamp": "2026-08-09T00:44:40.754567",
+      "role": "user",
+      "content": "What is the capital of France?",
+      "metadata": {}
+    },
+    {
+      "id": "a7dbd077-e022-4fc9-a576-2968df08e87b",
+      "timestamp": "2026-08-09T00:44:40.754567",
+      "role": "assistant",
+      "content": "I apologize for my previous error. The capital of France is Paris.",
+      "metadata": {}
+    }
+  ],
+  "semantic": {
+    "capital_of_france": {
+      "value": "Paris",
+      "last_updated": "2026-08-09T00:44:40.753566",
+      "source_id": null
+    }
+  }
+}
