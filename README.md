@@ -44,5 +44,9 @@ It scored **100/100** for architecture (KMS, Redis, Async Postgres).
 ## 👨‍💻 About the Author
 Built by [Shivam Kumar (shivay00001)](https://github.com/shivay00001).
 
-## 📄 License
-MIT
+## 📄 License & Commercial Use
+OpenMemory uses a **Dual-Licensing** model:
+1. **Free / Non-Commercial:** Free for personal, academic, and non-commercial hobbyist use.
+2. **Enterprise / Commercial:** **Paid**. Any commercial use, production deployment, or integration into a revenue-generating product requires a paid Commercial License. 
+
+For enterprise licensing, VSR (Vendor Security Review) documentation, or Big Tech acquisitions, please contact the author.

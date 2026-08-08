@@ -14,7 +14,7 @@ setup(
     packages=find_packages(include=["core", "api", "security"]),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: Other/Proprietary License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.9",
