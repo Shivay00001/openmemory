@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="openmemory.ai",
+    name="vq-openmemory",
     version="1.0.0",
     author="Shivam Kumar (shivay00001)",
     author_email="shivaysinghrajputofficial@gmail.com",
     description="A 100/100 Enterprise-grade, async, and mathematically secure AI Memory System.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/shivay00001/openmemory-ai",
+    url="https://github.com/shivay00001/vq-openmemory",
     packages=find_packages(include=["core", "api", "security"]),
     classifiers=[
         "Programming Language :: Python :: 3",
