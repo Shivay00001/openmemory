@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="openmemory-ai",
+    name="openmemory.ai",
     version="1.0.0",
     author="Shivam Kumar (shivay00001)",
     author_email="shivaysinghrajputofficial@gmail.com",
