@@ -17,7 +17,7 @@
 ## 📦 Installation
 
 ```bash
-pip install openmemory.ai
+pip install openmemory-ai
 ```
 
 ## 🛠️ Quick Start
