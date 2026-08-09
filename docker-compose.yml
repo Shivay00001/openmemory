@@ -1,25 +1,30 @@
 version: '3.8'
-
 services:
-  openmemory-api:
+  app:
     build: .
     ports:
       - "8000:8000"
+      - "3000:3000"
+      - "8080:8080"
+    environment:\n      - DATABASE_URL=postgresql://user:password@postgres:5432/appdb\n      - REDIS_URL=redis://redis:6379\n
+
+  postgres:
+    image: postgres:15-alpine
     environment:
-      - DATABASE_URL=sqlite+aiosqlite:////data/openmemory_prod.db
-      - REDIS_URL=redis://redis:6379/0
-      - CHROMA_DB_PATH=/data/chroma_db
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: appdb
+    ports:
+      - "5432:5432"
     volumes:
-      - ./data:/data
-    depends_on:
-      - redis
+      - pgdata:/var/lib/postgresql/data
 
   redis:
     image: redis:7-alpine
     ports:
       - "6379:6379"
-    volumes:
-      - redis_data:/data
 
 volumes:
-  redis_data:
+  pgdata:
+  mongodata:
+  mysqldata:
